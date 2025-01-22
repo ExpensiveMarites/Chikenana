@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_withfirebase"
+        tools:targetApi="31">
+        <activity
+            android:name=".Delivering"
+            android:exported="false" />
+        <activity
+            android:name=".Order_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Specials_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Sides_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Drinks_menu"
+            android:exported="false" />
+        <activity
+            android:name=".cart_Item"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn_activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".signUp_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Slash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

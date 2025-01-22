@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_icon_silhouette_svgrepo_com"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/Search"
+        android:icon="@drawable/icons8_search"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
+        android:id="@+id/Person"
+        android:icon="@drawable/person_svgrepo_com"
+        android:title="Person"/>
+
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/setting_svgrepo_com"
+        android:title="Settings"/>
+</menu>

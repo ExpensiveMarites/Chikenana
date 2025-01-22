@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chickenana</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_sample">sample</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="str_1">Popular</string>
+    <string name="total_amount_format">Total: %1$.2f PHP, Payment: %2$.2f PHP</string>
+    <string name="amount_with_currency">$%1$.2f PHP</string>
+</resources>
